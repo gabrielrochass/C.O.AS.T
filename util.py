@@ -14,3 +14,11 @@ def getLimits(color): # função que retorna os limites inferior e superior para
     upperLimit = np.array(upperLimit, dtype=np.uint8)
 
     return lowerLimit, upperLimit
+
+def calculaArea(bbox): # função que calcula a área de um retângulo
+    if bbox is not None:
+        x1, y1, x2, y2 = bbox
+        area = (x2 - x1) * (y2 - y1)
+        return area
+    else:
+        return 0
