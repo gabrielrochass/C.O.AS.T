@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-def getLimits(color):
+def getLimits(color): # função que retorna os limites inferior e superior para a cor desejada em HSV
     c = np.uint8([[color]]) # converte input color para inteiro de 8 bits (0-255)
     hsvC = cv2.cvtColor(c, cv2.COLOR_BGR2HSV) # converte cor de BGR para HSV usado pelo OpenCV
 
