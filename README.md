@@ -1,4 +1,4 @@
-# Detector de Cores
+# Color Object Analysis and Tracking
 
 ## Sobre o Projeto
 
