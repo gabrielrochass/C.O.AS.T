@@ -1,4 +1,4 @@
-# Color Object Analysis and Tracking
+# Color Object Analysis and Tracking (C.O.AS.T)
 
 ## Sobre o Projeto
 
